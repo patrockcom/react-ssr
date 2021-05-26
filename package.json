@@ -1,26 +1,19 @@
 {
   "name": "ssr",
   "version": "1.0.0",
-  "description": "ssr react",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/patrockcom/react-ssr.git"
-  },
-  "author": "patrick roth",
+  "author": "Emmanuel Henri",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/patrockcom/react-ssr/issues"
-  },
-  "homepage": "https://github.com/patrockcom/react-ssr#readme",
   "dependencies": {
-    "next": "^10.2.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "express": "^4.17.1",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
